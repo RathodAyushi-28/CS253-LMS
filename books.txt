@@ -1,0 +1,5 @@
+1,Quantum Cryptography,Cormen,IITK,1990,12345654321,0,AVAILABLE,,-1,2,0,
+2,Ramyana A saga,Valmiki,Pearson,1050,2456909,0,AVAILABLE,,-1,
+4,Mastering DSA,Thomas H,Harvard,2000,1289008921,0,BORROWED,stud 1,0,
+5,Predicting The future,P K Kelkar,IITK,1970,567898765,0,AVAILABLE,,-1,
+6,Dictionary,Some prof in Oxford,Oxford,1950,45667654,0,AVAILABLE,,-1,
