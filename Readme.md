@@ -6,7 +6,7 @@ This is my submission for C++ assignment for the course CS253, Spring semester o
 ## Installation
 1. Clone the repository:
     ```terminal
-    git clone https://github.com/Ash0702/CS253-LMS-CPP-assignment.git
+    git clone https://github.com/Ash0702/CS253-LMS-CPP_assignment.git
     ```
 2. Navigate to the project directory:
     ```terminal
