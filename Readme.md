@@ -9,7 +9,7 @@ This is my submission for C++ assignment for the course CS253, Spring semester o
     git clone https://github.com/Ash0702/CS253-LMS-CPP_assignment.git
     ```
 2. Navigate to the project directory:
-    
+
 3. Compile the code and build an executable file using(although it already is included in the repo, so you may choose to skip this step)
     ```terminal
     g++ -o g Library_management.cpp
@@ -56,13 +56,18 @@ The repository is organized as
 Right Now, the Database has 5 Students, 5 Books, 5Faculties and 3 librarians.
 Books.txt Looks like
 ### BOOKS.TXT
-| ID  | Title                   | Author             | Publisher  | Year | ISBN        | Created_at | Status    | Borrowed by | Borrowed at | History |
-|---- |-------------------------|------------------- |------------|------|------------ |------------|----------|-------------|-------------|---------|
-| 1   | Quantum Cryptography    | Cormen            | IITK       | 1990 | 12345654321 | 0          | AVAILABLE |             | -1          | 2,0     |
-| 2   | Ramyana A saga          | Valmiki          | Pearson    | 1050 | 2456909     | 0          | AVAILABLE |             | -1            |         |
-| 4   | Mastering DSA           | Thomas H          | Harvard    | 2000 | 1289008921  | 0          | BORROWED  | stud 1      | 0           |         |
-| 5   | Predicting The Future   | P K Kelkar        | IITK       | 1970 | 567898765   | 0          | AVAILABLE |           |     -1        |         |
-| 6   | Dictionary              | Some prof in Oxford | Oxford   | 1950 | 45667654    | 0          | AVAILABLE |           |    -1         |         |
+| ID  | Title                          | Author               | Publisher        | Year | ISBN         | Created_at | Status    | Borrowed by | Borrowed at | History |
+|---- |------------------------------|---------------------|-----------------|------|-------------|------------|----------|-------------|-------------|---------|
+| 1   | Quantum Cryptography         | Cormen              | IITK            | 1990 | 12345654321  | 0          | AVAILABLE |             | -1          | 2,0     |
+| 2   | Ramyana A Saga               | Valmiki             | Pearson         | 1050 | 2456909      | 0          | AVAILABLE |             | -1          |         |
+| 4   | Mastering DSA                | Thomas H            | Harvard         | 2000 | 1289008921   | 0          | BORROWED  | stud 1      | 0           |         |
+| 5   | Predicting The Future        | P K Kelkar          | IITK            | 1970 | 567898765    | 0          | AVAILABLE |             | -1          |         |
+| 6   | Dictionary                   | Some Prof in Oxford | Oxford          | 1950 | 45667654     | 0          | AVAILABLE |             | -1          |         |
+| 7   | Maintaining Clean Code       | Robert C. Martin    | Prentice Hall   | 2008 | 123654321    | 0          | AVAILABLE |             | -1          |         |
+| 8   | The Pragmatic Programmer     | Andrew Hunt        | Addison-Wesley  | 1999 | 9780201616224| 0          | AVAILABLE |             | -1          |         |
+| 9   | Artificial Intelligence      | Stuart Russell      | Pearson         | 2020 | 9780134610993| 0          | AVAILABLE |             | -1          |         |
+| 10  | The Art of Computer Programming | Donald Knuth  | Addison-Wesley  | 1968 | 9780201896831| 0          | AVAILABLE |             | -1          |         |
+| 11  | Deep Learning                | Ian Goodfellow      | MIT Press       | 2016 | 9780262035613| 0          | AVAILABLE |             | -1          |         |
 
 ### STUDENTS.TXT
 | ID  | USERNAME | PASSWORD | STATUS  | Created_at | FINE | PAID | BorrowedBooks | MESSAGE                   |
