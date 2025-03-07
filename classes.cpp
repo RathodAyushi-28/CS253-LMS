@@ -1120,8 +1120,13 @@ void view(Book b){
 void viewBook_bare_minimum(int id, vector<Book> &Current_books){
     for(Book b : Current_books){
         if(b.id == id){
-            cout <<"ID" << setw(setwforString+10) << "TITLE" << setw(setwforString) << "AUTHOR" << setw(setwforString) << "STATUS" << setw(setwforString) << "ISBN\n" << setw(setwforint) << "Borrowed for";
-            cout << b.id << setw(setwforString + 10) << b.title << setw(setwforString) << b.author << setw(setwforString) << b.status << setw(setwforString) << b.ISBN << setw(setwforint) << Current_day() - b.borrowed_at << "\n";
+            cout <<"ID" << setw(setwforString+10) << "TITLE" << setw(setwforString+10) << "AUTHOR" << setw(setwforString) << "STATUS" << setw(setwforString) << "ISBN" << setw(setwforint+5) << "Borrowed for\n";
+            if(b.status == "BORROWED"){
+                cout << b.id << setw(setwforString + 10) << b.title << setw(setwforString+10) << b.author << setw(setwforString) << b.status << setw(setwforString) << b.ISBN << setw(setwforint+5) << Current_day() - b.borrowed_at << "\n";
+            }
+            else{
+                cout << b.id << setw(setwforString + 10) << b.title << setw(setwforString+10) << b.author << setw(setwforString) << b.status << setw(setwforString) << b.ISBN << setw(setwforint+5) << b.borrowed_at << "\n";
+            }
             return;
         }
     }
