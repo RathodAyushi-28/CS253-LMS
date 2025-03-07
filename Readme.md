@@ -9,9 +9,7 @@ This is my submission for C++ assignment for the course CS253, Spring semester o
     git clone https://github.com/Ash0702/CS253-LMS-CPP_assignment.git
     ```
 2. Navigate to the project directory:
-    ```terminal
-    cd LibraryManagement
-    ```
+    
 3. Compile the code and build an executable file using(although it already is included in the repo, so you may choose to skip this step)
     ```terminal
     g++ -o g Library_management.cpp
