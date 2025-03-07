@@ -3,12 +3,6 @@
 ## Overview
 This is my submission for C++ assignment for the course CS253, Spring semester of 2025, under Prof. Indranil Saha
 
-## Setup Instructions
-- **Book Cataloging**: Add, update, and delete book records.
-- **Member Management**: Register new members and maintain member details.
-- **Loan Management**: Issue and return books, and track overdue items.
-- **Search Functionality**: Search for books and members using various criteria.
-
 ## Installation
 1. Clone the repository:
     ```terminal
