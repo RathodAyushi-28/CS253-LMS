@@ -6,7 +6,7 @@ This is my submission for C++ assignment for the course CS253, Spring semester o
 ## Installation
 1. Clone the repository:
     ```terminal
-    git clone https://github.com/Ash0702/CS253-LMS-CPP_assignment.git
+    git clone https://github.com/RathodAyushi-28/CS253-LMS-CPP_assignment.git
     ```
 2. Navigate to the project directory:
 
@@ -110,6 +110,6 @@ There was a conversation between admin1 and Student 1 about his dues, which can 
 - All the other Assumptions stated in the Implementation instructions.
 
 ## Author
-- Saksham Verma
+- Rathod Ayushi
 - IITK 
-- 230899
+- 230844
